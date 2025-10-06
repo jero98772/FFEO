@@ -37,7 +37,7 @@ your_project/
 
 1. Run your application:
 
-   ```bash
+```bash
    python app.py
 ````
 
@@ -49,26 +49,18 @@ your_project/
 ## ✨ Supported Features
 
 ✅ Multiple routes with decorators
+
 ✅ Dynamic URL parameters (`/user/<username>`)
+
 ✅ Template rendering with variables
+
 ✅ Custom error handlers
+
 ✅ Support for HTTP methods (`GET`, `POST`, `PUT`, `DELETE`)
+
 ✅ Query string parsing
+
 ✅ Debug mode
 
----
-
-## 🧠 About
-
-The **FFeo Framework** was created to help learners understand how frameworks like Flask work under the hood.
-It mirrors Flask’s syntax while remaining minimal, readable, and built only from the Python standard library.
-
----
-
-### 📜 License
-
-This project is open-source and provided for **educational use only**.
-
-```
 
 
