@@ -1,43 +1,74 @@
-# FFeo Framework 
+# 🧩 FFEO Framework
 
-just for educational propuses
+> A lightweight educational web framework inspired by Flask — built entirely with Python’s standard library.
 
-### Core Components:
-Routing system with decorator syntax (@app.route())
-Template engine supporting {{ variables }}, {% if %}, and {% for %} tags
-HTTP server built on Python's http.server
-Request/Response objects for handling HTTP
-URL parameters extraction (e.g., /user/<username>)
-Error handlers for custom 404 pages
+⚠️ **Note:** This project is for **educational purposes only**. It aims to teach the core concepts behind web frameworks like Flask, including routing, templating, and request handling.
 
+---
 
-### How to Use:
+## 🌐 Core Components
 
-Project Structure:
+- 🧭 **Routing System** using decorator syntax (`@app.route()`)
+- 🧱 **Template Engine** supporting:
+  - `{{ variables }}`
+  - `{% if %}` and `{% for %}` control structures
+- ⚙️ **HTTP Server** built on Python’s `http.server`
+- 📦 **Request/Response Objects** for managing HTTP interactions
+- 🔗 **URL Parameter Extraction** (e.g., `/user/<username>`)
+- 🚫 **Custom Error Handlers** (e.g., 404 pages)
 
-<code>
+---
+
+## 🗂️ Project Structure
+
+```
+
 your_project/
 ├── FFEO.py           # The framework
 ├── app.py            # Your application
 └── templates/
-    └── index.html
-</code>
-Run it:
+     └── index.html
 
-<code>
-python app.py
-</code>
-Then visit http://127.0.0.1:5000
+````
 
-### Supported Features:
+---
+
+## ▶️ How to Run
+
+1. Run your application:
+
+   ```bash
+   python app.py
+````
+
+2. Open your browser and go to:
+   👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+## ✨ Supported Features
+
 ✅ Multiple routes with decorators
-✅ Dynamic URL parameters (/user/<username>)
+✅ Dynamic URL parameters (`/user/<username>`)
 ✅ Template rendering with variables
 ✅ Custom error handlers
-✅ Multiple HTTP methods (GET, POST, PUT, DELETE)
+✅ Support for HTTP methods (`GET`, `POST`, `PUT`, `DELETE`)
 ✅ Query string parsing
 ✅ Debug mode
-The framework is fully functional and mirrors Flask's syntax exactly as you requested! It's built entirely from scratch using only Python's standard library.
 
+---
+
+## 🧠 About
+
+The **FFeo Framework** was created to help learners understand how frameworks like Flask work under the hood.
+It mirrors Flask’s syntax while remaining minimal, readable, and built only from the Python standard library.
+
+---
+
+### 📜 License
+
+This project is open-source and provided for **educational use only**.
+
+```
 
 
