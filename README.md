@@ -1,14 +1,20 @@
-# FFeo Framework -
+# FFeo Framework 
 
-1. Core Components:
+just for educational propuses
+
+### Core Components:
 Routing system with decorator syntax (@app.route())
 Template engine supporting {{ variables }}, {% if %}, and {% for %} tags
 HTTP server built on Python's http.server
 Request/Response objects for handling HTTP
 URL parameters extraction (e.g., /user/<username>)
 Error handlers for custom 404 pages
-2. How to Use:
+
+
+### How to Use:
+
 Project Structure:
+
 <code>
 your_project/
 ├── FFEO.py           # The framework
@@ -23,7 +29,7 @@ python app.py
 </code>
 Then visit http://127.0.0.1:5000
 
-3. Supported Features:
+### Supported Features:
 ✅ Multiple routes with decorators
 ✅ Dynamic URL parameters (/user/<username>)
 ✅ Template rendering with variables
